@@ -97,6 +97,7 @@ ul li{
     height: 180px;
     width: 280px;
     margin-top: 25px;
+    
 }
 
 .foto1-index{
@@ -178,10 +179,7 @@ ul li{
 
 .mapa-ubi{
     grid-area: mapa-ubi;
-    margin-top: 20px;
-    padding: 70px;
-    border-style: solid;
-    border-color: black;
+    
 }
 
 .texto-ubi{
@@ -231,6 +229,22 @@ ul li{
 .foto3-servicios{
     grid-area: foto-aire;
 }
+
+.mapa-ubi iframe{
+    width: 270px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+
+ @keyframes efecto_mapa{
+    0%{ width: 600px; }
+    25%{ width: 650px; }
+    50%{ width: 700px; }
+    75%{ width: 800px;}
+    100%{ width: 850px;}
+ }
 
 @media screen and (min-width: 768px) {
     .encabezado{
@@ -294,6 +308,7 @@ ul li{
 
     .texto-ubi{
         align-self: center;
+        margin-bottom: 20px;
     }
 
     .imagenes-servicios img{
@@ -314,6 +329,12 @@ ul li{
         text-align: center;
         align-items: center;
         
+    }
+
+    .mapa-ubi iframe{
+        width: 300px;
+        height: 200px;
+        margin: 20px;
     }
 
 }  
@@ -366,12 +387,7 @@ ul li{
         margin-left: 20px;
     }
 
-    .mapa-ubi{
-        padding-top: 70px;
-        margin-left: 30px;
-        margin-right: 30px;
-        padding-bottom: 70px
-    }
+    
 
     .texto-ubi{
         font-size: 15px;
@@ -430,6 +446,7 @@ ul li{
 
     .foto1-index img{
         grid-area: electrica;
+        
     }
 
     .foto2-index{
@@ -451,10 +468,12 @@ ul li{
     }
 
     .logo img{
-        width: 315px;
+        width: 300px;
         height: 150px;
         margin-left: 50px;
         margin-top: 20px;
+       
+
     }
 
     .imagenes-index img{
@@ -471,13 +490,7 @@ ul li{
         height: 250px;
     }
 
-    .mapa-ubi{
-        padding-top: 90px;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-bottom: 90px
-    }
-
+    
     .texto-ubi{
         font-size: 16px;
         align-self: center;
@@ -504,6 +517,12 @@ ul li{
     
     .texto3-imagen{
         padding: 40px;
+    }
+
+    .mapa-ubi iframe{
+        width: 550px;
+        height: 350px;
+        margin: 20px;
     }
     
 }
