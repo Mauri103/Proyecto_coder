@@ -5,171 +5,7 @@ body{
     font-size: 12px;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    text-align: right;
-    line-height: 0px;
-    background-color: rgb(122, 161, 187);
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 12px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    
-}
 
-.texto-footer{
-    margin-right: 10px;
-}
-
-nav{
-    background-color: rgb(122, 161, 187) ;
-}
-
-ul{
-    padding: 5px;
-}
-
-ul li{
-    list-style: none;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    font-weight: bold;
-     
-}
-.encabezado{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    justify-content: left;
-    grid-template-areas: "logo wpp";
-}
-
-.logo{
-    grid-area: logo;
-    align-self: flex-end;
-}
-
-.whatsapp{
-    grid-area: wpp;
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin-right: 15px;
-}
-
-.whatsapp img{
-    width: 30px;
-    height: 30px;
-}
-
-.boton{
-    display: none;
-}
-
-.numero{
-    grid-area: numero;
-    align-self: end;
-    font-size: 13px;
-    margin-right: 5px;
-    margin-top: 15px;
-    display: none;
-    
-}
-
-.logo img{
-    width: 170px;
-    height: 80px;
-    margin-top: 15px;
-    margin-left: 15px;
-    
-}
-
-.contenido{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    
-}
-
-.imagenes-index img{
-    height: 180px;
-    width: 280px;
-    margin-top: 25px;
-    
-}
-
-.foto1-index{
-    text-align: center;
-    
-}
-
-.foto2-index{
-    text-align: center;
-   
-}
-
-.foto3-index{
-    text-align: center;
-    
-}
-
-.imagenes-index p{
-    margin: 25px;
-    text-align: center;
-}
-
-.imagenes-index{
-    justify-self: left;
-}
-
-.miembros img{
-    width: 200px;
-    height: 150px;
-    border-style: dashed;
-    border-radius: 100%;
-    padding: 3px;
-}
-
-.miembros{
-    display: flex;
-    flex-direction: column;
-    
-
-}
-
-.miembro1{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    grid-area: miembro1;
-}
-
-.miembro2{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    grid-area: miembro2;
-}
-
-.miembro3{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    grid-area: miembro3;
-}
-
-.texto-quienessomos{
-    text-align: center;
-    margin: 10px;
-    
-}
-
-.titulo-miembros{
-    text-align: center;
-    grid-area: conoce;
-}
 
 .contenido-ubicacion{
     display: flex;
@@ -177,10 +13,6 @@ ul li{
     text-align: center;
 }
 
-.mapa-ubi{
-    grid-area: mapa-ubi;
-    
-}
 
 .texto-ubi{
     grid-area: texto-ubi;
@@ -237,292 +69,48 @@ ul li{
     
 }
 
-
- @keyframes efecto_mapa{
-    0%{ width: 600px; }
-    25%{ width: 650px; }
-    50%{ width: 700px; }
-    75%{ width: 800px;}
-    100%{ width: 850px;}
- }
-
-@media screen and (min-width: 768px) {
-    .encabezado{
-        grid-template-columns: 70% 15% 15%;
-        grid-template-areas: "logo wpp numero"
-
-    }
-
-    .numero{
-        grid-area: numero;
-        display: inline;
-    }
-
-    ul{
-        display: flex;
-        justify-content: center;
-    }
-
-    ul li{
-        padding: 10px;
-        font-size: 13px;
-    }
-
-    .logo img{
-        width: 200px;
-        height: 90px;
-    }
-
-    .logo{
-        margin-left: 15px;
-        margin-top: 5px;
-    }
-
-    .miembros{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0.5fr auto;
-        grid-template-areas: "conoce conoce conoce" "miembro1 miembro2 miembro3";
-    }
-
-    .miembro1{
-        padding: 10px;  
-    }
-
-    .miembro2{
-        padding: 10px;
-    }
-
-    .miembro3{
-        padding: 10px;
-    }
-
-    .contenido-ubicacion{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 0.1fr 1fr;
-        grid-template-areas: "titulo-ubi titulo-ubi" "texto-ubi mapa-ubi";
-        grid-gap: 25px
-
-    }
-
-    .texto-ubi{
-        align-self: center;
-        margin-bottom: 20px;
-    }
-
-    .imagenes-servicios img{
-        width: 250px;
-        height: 250px;
-        border-style: dashed;
-        border-radius: 100%;
-        border-color: burlywood;
-        padding: 10px;
-        margin: 15px;
-    }
-    
-    .imagenes-servicios{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-        grid-template-areas: "texto-ele foto-ele" "foto-san texto-san" "texto-aire foto-aire";
-        text-align: center;
-        align-items: center;
-        
-    }
-
-    .mapa-ubi iframe{
-        width: 300px;
-        height: 200px;
-        margin: 20px;
-    }
-
-}  
-
-
-
-@media screen and (min-width: 1024px) {
-    .encabezado{
-        grid-template-columns: 70% 15% 15%;
-        grid-template-areas: "logo wpp numero"
-
-    }
-
-    .numero{
-        grid-area: numero;
-        display: inline;
-    }
-    
-    .imagenes-index{
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-template-areas: "electrica sanitaria aire"
-    }
-
-    .foto1-index img{
-        grid-area: electrica;
-    }
-
-    .foto2-index{
-        grid-area: sanitaria;
-    }
-
-    .foto3-index{
-        grid-area: aire;
-    }
-
-    ul{
-        display: flex;
-        justify-content: center;
-    }
-
-    ul li{
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    .logo img{
-        width: 225px;
-        height: 100px;
-        margin-left: 20px;
-    }
-
-    
-
-    .texto-ubi{
-        font-size: 15px;
-        align-self: center;
-        padding: 20px;
-    }
-
-    .imagenes-servicios img{
-        width: 350px;
-        height: 350px;
-        
-    }
-
-    .imagenes-servicios{
-        font-size: 15px;
-    }
-
-    .texto1-imagen{
-        padding: 30px;
-    }
-    
-    .texto2-imagen{
-        padding: 30px;
-    }
-    
-    .texto3-imagen{
-        padding: 30px;
-    }
+.tam-logo{
+    width: 250px;
+    height: 80px;
+    margin-left: 10px;
     
 }
 
-
-@media screen and (min-width: 1440px) {
-    .encabezado{
-        grid-template-columns: 70% 15% 15%;
-        grid-template-areas: "logo wpp numero"
-
-    }
-
-    .numero{
-        grid-area: numero;
-        display: inline;
-        font-size: 16px;
-    }
-
-    .whatsapp img{
-        width: 40px;
-        height: 40px;
-    }
-    
-    .imagenes-index{
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-template-areas: "electrica sanitaria aire"
-    }
-
-    .foto1-index img{
-        grid-area: electrica;
-        
-    }
-
-    .foto2-index{
-        grid-area: sanitaria;
-    }
-
-    .foto3-index{
-        grid-area: aire;
-    }
-
-    ul{
-        display: flex;
-        justify-content: center;
-    }
-
-    ul li{
-        padding: 10px;
-        font-size: 18px;
-    }
-
-    .logo img{
-        width: 300px;
-        height: 150px;
-        margin-left: 50px;
-        margin-top: 20px;
-       
-
-    }
-
-    .imagenes-index img{
-        height: 220px;
-        width: 350px;
-    }
-
-    .contenido{
-        font-size: 16px;
-    }
-
-    .miembros img{
-        width: 275px;
-        height: 250px;
-    }
-
-    
-    .texto-ubi{
-        font-size: 16px;
-        align-self: center;
-        padding: 40px;
-    }
-
-    .imagenes-servicios img{
-        width: 450px;
-        height: 450px;
-        
-    }
-
-    .imagenes-servicios{
-        font-size: 16px;
-    }
-
-    .texto1-imagen{
-        padding: 40px;
-    }
-    
-    .texto2-imagen{
-        padding: 40px;
-    }
-    
-    .texto3-imagen{
-        padding: 40px;
-    }
-
-    .mapa-ubi iframe{
-        width: 550px;
-        height: 350px;
-        margin: 20px;
-    }
+.alin-nav{
+    justify-content: end;
     
 }
+
+.tam-img-index{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.alin-texto{
+    text-align: center;
+    padding: 30px;
+    align-self: stretch;
+}
+
+.bordes-img{
+    border-style: groove;
+    border-radius: 25%;
+    border-color: cadetblue;
+}
+
+.tam-letra{
+    font-size: medium;
+}
+
+.linea-footer{
+    line-height: 80%;
+    padding: 5px;
+    text-align: end;
+}
+
+
+
+
+
+ 
