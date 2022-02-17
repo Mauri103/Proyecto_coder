@@ -5,70 +5,6 @@ body{
     font-size: 12px;
 }
 
-
-
-.contenido-ubicacion{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-
-.texto-ubi{
-    grid-area: texto-ubi;
-}
-
-.titulo-ubi{
-    grid-area: titulo-ubi;
-}
-
-.imagenes-servicios img{
-    width: 250px;
-    height: 250px;
-    border-style: dashed;
-    border-radius: 100%;
-    border-color: burlywood;
-    padding: 10px;
-    margin: 15px;
-}
-
-.imagenes-servicios{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.texto1-imagenes{
-    grid-area: texto-ele;
-}
-
-.texto2-imagenes{
-    grid-area: texto-san;
-}
-
-.texto3-imagenes{
-    grid-area: texto-aire;
-}
-
-.foto1-servicios{
-    grid-area: foto-ele;
-}
-
-.foto2-servicios{
-    grid-area: foto-san;
-}
-
-.foto3-servicios{
-    grid-area: foto-aire;
-}
-
-.mapa-ubi iframe{
-    width: 270px;
-    height: 200px;
-    margin: 20px;
-    
-}
-
 .tam-logo{
     width: 250px;
     height: 80px;
@@ -91,6 +27,12 @@ body{
     text-align: center;
     padding: 30px;
     align-self: stretch;
+    align-self: center;
+
+}
+
+.alin_texto{
+    align-self: center;
 }
 
 .bordes-img{
@@ -108,6 +50,66 @@ body{
     padding: 5px;
     text-align: end;
 }
+
+.alin-map{
+    text-align: center;
+    
+}
+
+.borde-servicios{
+    border-style: dashed;
+    border-color: rgb(53, 50, 48);
+    border-radius: 100%;
+}
+
+.alin-texto-right{
+    text-align: right;
+    align-self: center;
+}
+
+.borde-conteiner{
+    border-style: solid;
+    border-color: rgba(99, 94, 94, 0.2);
+}
+
+.tam-img-servicios{
+    height: 300px;
+    width: 400px;
+}
+
+.tam-letra-servicios{
+    font-size: small;
+    padding: 20px;
+}
+
+.alin-texto-left{
+    text-align: left;
+}  
+
+@media (max-width: 375px) { 
+    .tam-logo{
+        width: 180px;
+    }
+
+    .alin-texto-right{
+        text-align: center;
+    }
+
+    .tam-img-servicios {
+        height: 250px;
+        width: 290px;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .alin-texto-right{
+        text-align: center;
+    }  
+
+    .alin-texto-left{
+        text-align: center;
+    }  
+ }
 
 
 
