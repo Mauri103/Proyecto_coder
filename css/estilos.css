@@ -6,7 +6,7 @@ body{
 }
 
 .tam-logo{
-    width: 250px;
+    width: 100px;
     height: 80px;
     margin-left: 10px;
     
@@ -27,13 +27,10 @@ body{
     text-align: center;
     padding: 30px;
     align-self: stretch;
-    align-self: center;
+    
 
 }
 
-.alin_texto{
-    align-self: center;
-}
 
 .bordes-img{
     border-style: groove;
@@ -84,22 +81,54 @@ body{
 
 .alin-texto-left{
     text-align: left;
+    align-self: center;
 }  
 
-@media (max-width: 375px) { 
+.alin-texto-map{
+    text-align: center;
+    align-self: center;
+}
+
+.alin-cont{
+    text-align: center;
+}
+
+.borde-cont{
+    border-style: ridge;
+    border-color: darkgray;
+}
+
+.alin-btn{
+    text-align: end;
+    align-self: flex-end;
+}
+
+.tam-map{
+    width: 450px;
+    height: 300px;
+
+}
+
+.p-ubi{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+@media (max-width: 2560px) {
     .tam-logo{
-        width: 180px;
+
+        width: 270px;
+        height: 80px;
     }
 
-    .alin-texto-right{
-        text-align: center;
+    .tam-map{
+        width: 450px;
+        height: 300px;
+    
     }
-
-    .tam-img-servicios {
-        height: 250px;
-        width: 290px;
-    }
- }
+    
+}
 
  @media (max-width: 768px) {
     .alin-texto-right{
@@ -109,10 +138,43 @@ body{
     .alin-texto-left{
         text-align: center;
     }  
- }
 
+    .tam-logo{
 
+        width: 230px;
+        height: 80px;
+    }
 
+    @media (max-width: 425px) { 
+        .tam-logo{
+            width: 170px;
+            height: 60px;
+        }
+    
+        .alin-texto-right{
+            text-align: center;
+        }
+    
+        .tam-img-servicios {
+            height: 250px;
+            width: 290px;
+        }
+    
+        .tam-img-servicios{
+            height: 250px;
+            width: 250px;
+        }
 
+        .tam-map{
+            width: 250px;
+            height: 150px;
+        
+        }
 
- 
+        .p-ubi{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+     
+    }
+}
