@@ -94,7 +94,7 @@ body{
 }
 
 .borde-cont{
-    border-style: ridge;
+    border-style: solid;
     border-color: darkgray;
 }
 
@@ -114,6 +114,14 @@ body{
     padding-right: 80px;
 }
 
+.m-cont{
+    margin: 3rem;
+}
+
+.alin-ul{
+    align-items: center;
+}
+
 
 @media (max-width: 2560px) {
     .tam-logo{
@@ -127,22 +135,34 @@ body{
         height: 300px;
     
     }
+
+    
     
 }
 
- @media (max-width: 768px) {
-    .alin-texto-right{
-        text-align: center;
-    }  
+    @media (max-width: 768px) {
+        .alin-texto-right{
+            text-align: center;
+        }  
 
-    .alin-texto-left{
-        text-align: center;
-    }  
+        .alin-texto-left{
+            text-align: center;
+        }  
 
-    .tam-logo{
+        .tam-logo{
 
-        width: 230px;
-        height: 80px;
+            width: 230px;
+            height: 80px;
+        }
+
+        .tam-img-servicios{
+            height: 300px;
+            width: 400px;
+        }   
+
+        .alin-ul{
+            margin-top: 20px;
+        }
     }
 
     @media (max-width: 425px) { 
@@ -161,9 +181,9 @@ body{
         }
     
         .tam-img-servicios{
-            height: 250px;
-            width: 250px;
-        }
+            height: 200px;
+            width: 190px;
+        }   
 
         .tam-map{
             width: 250px;
@@ -175,6 +195,10 @@ body{
             padding-left: 30px;
             padding-right: 30px;
         }
+
+        .m-cont{
+            margin: 2rem;
+        }
+        
      
     }
-}
