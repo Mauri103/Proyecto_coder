@@ -110,8 +110,8 @@ body{
 }
 
 .p-ubi{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 250px;
+    
 }
 
 .m-cont{
@@ -122,6 +122,26 @@ body{
     align-items: center;
 }
 
+.alin-ubi{
+    text-align: end;
+}
+
+.img-carrusel{
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+}
+
+.img-trabajos{
+    width: 400px;
+    height: 400px;
+}
+
+.borde-index{
+    border-style: solid;
+    padding: 5px;
+    border-color: darkgrey;
+}
 
 @media (max-width: 2560px) {
     .tam-logo{
@@ -137,6 +157,23 @@ body{
     }
 
     
+    
+}
+
+
+@media (max-width: 1440px) {
+.img-trabajos{
+    height: 400px;
+    width: 400px;
+}
+
+@media (max-width: 1024px) {
+    .img-trabajos{
+        height: 300px;
+        width: 300px;
+    }
+    
+
     
 }
 
@@ -162,6 +199,12 @@ body{
 
         .alin-ul{
             margin-top: 20px;
+        }
+
+        .alin-ubi{
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
         }
     }
 
@@ -199,6 +242,13 @@ body{
         .m-cont{
             margin: 2rem;
         }
+
+        .img-trabajos{
+            height: 250px;
+            width: 250px;
+        }
+        
         
      
     }
+}
