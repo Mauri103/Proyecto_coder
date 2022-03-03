@@ -3,3 +3,59 @@
  @import "../parciales/index-contenido";
  @import "../parciales/index-carrusel";
 
+$colores:(
+     "rojo": red,
+     "azul": blue,
+     "gris": #808080,
+     "dorado": rgb(255, 215, 0)
+ );
+
+ @each $color, $valor in $colores {
+    .titulo--#{$color} {
+        color: $valor;
+    }
+ }
+
+ $tamanios:(
+     "grande": 18px ,
+     "mediano": 14px,
+     "pequeño": 10px
+     
+ );
+
+ @each $tamanio, $pixel in $tamanios {
+    .fuente--#{$tamanio} {
+       font-size: $pixel;
+    }
+ }
+
+ .tam-fuente-color{
+     color: map-get($colores, color);
+     font-size: map-get($tamanios, grande)
+ }
+
+ .boton--enviar {
+	width: 150px;
+	height:50px;
+	background-color: blue;
+	text-align:center;
+	color: white;
+	border-radius:20px;
+	border:1px solid black;
+}
+
+.boton--limpiar{
+	@extend .boton--enviar;
+	background-color: red;
+	color: white;
+}
+
+@mixin flex-row-center{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.alineacion {
+   @include flex-row-center();
+}
