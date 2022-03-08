@@ -1,0 +1,16 @@
+$colores:(
+     "negro": black,
+     "blanco": white,
+   );
+
+ @each $color, $valor in $colores {
+    .titulo--#{$color} {
+        color: $valor;
+    }
+ }
+
+ .img-carrusel{
+  width: auto;
+  height: 600px;
+  object-fit: cover;
+}
