@@ -17,136 +17,150 @@
     
 <body>
     
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container-fluid d-inline-flex p-2">
-              <img src="/img/logo1.png" class="tam-logo " alt="">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse alin-nav tam-letra" id="navbarNav">
-                <ul class="navbar-nav alin-nav alin-ul">
-                  <li class="nav-item m-1">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item m-1">
-                    <a class="nav-link" href="vistas/quienessomos.html">¿Quiénes somos?</a>
-                  </li>
-                  <li class="nav-item m-1">
-                    <a class="nav-link" href="vistas/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item m-1">
-                    <a class="nav-link" href="vistas/contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item m-1">
-                    <a class="nav-link" href="vistas/ubicacion.html">Ubicación</a>
-                  </li>
-                </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <div class="container-fluid d-inline-flex p-2">
+            <img src="/img/logo1.png" class="tam-logo " alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse alin-nav tam-letra" id="navbarNav">
+              <ul class="navbar-nav alin-nav alin-ul">
+                <li class="nav-item m-1">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="vistas/quienessomos.html">¿Quiénes somos?</a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="vistas/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="vistas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="vistas/ubicacion.html">Ubicación</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+  <!-- Aqui comienza el carrusel -->
+
+  
+
+  <section class="container-fluid">
+    <div class="row mt-4 mb-4 position">
+      <div class="col-lg-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/aire2.jpg" class="d-block w-100 img-carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block titulo--blanco">
+                <h1 class="display">Mantenimiento de aire acondicionado</h1>
               </div>
             </div>
-          </nav>
-    </header>
-
-    <!-- Aqui comienza el carrusel -->
-
-    <section class="container-fluid">
-      <div class="row mt-4 mb-4">
-        <div class="col-lg-12">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/aire2.jpg" class="d-block w-100 img-carrusel" alt="...">
-                <div class="carousel-caption d-none d-md-block titulo--blanco">
-                  <h1 class="display">Mantenimiento de aire acondicionado</h1>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/mantenimiento2.jpg" class="d-block w-100 img-carrusel" alt="...">
-                <div class="carousel-caption d-none d-md-block titulo--blanco">
-                  <h1 class="display">Mantenimiento eléctrico</h1>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/sanitaria2.jpg" class="d-block w-100 img-carrusel" alt="...">
-                <div class="carousel-caption d-none d-md-block titulo--blanco">
-                  <h1 class="display">Mantenimiento sanitario</h1>
-                </div>
-              </div>
+            <div class="carousel-item">
+              <img src="./img/mantenimiento2.jpg" class="d-block w-100 img-carrusel" alt="...">
+            <div class="carousel-caption d-none d-md-block titulo--blanco">
+              <h1 class="display">Mantenimiento eléctrico</h1>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/sanitaria2.jpg" class="d-block w-100 img-carrusel" alt="...">
+            <div class="carousel-caption d-none d-md-block titulo--blanco">
+              <h1 class="display">Mantenimiento sanitario</h1>
+            </div>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </section>
+    </div>
+  </section>
+  
 
-    <!-- Aqui comienza la galería de imagenes -->
+<!-- Aqui comienza la galería de imagenes -->
 
-    <section class="container-fluid">
-      <div class="row m-5 alin-cont"data-aos="zoom-in" data-aos-duration="2000">
-        <div class="col-lg-12 titulo--negro">
-          <h3>Conoce nuestros trabajos</h3>
-        </div>
+  <section class="container-fluid">
+    <div class="row m-5 alin-cont"data-aos="zoom-in" data-aos-duration="2000">
+      <div class="col-lg-12 titulo--negro">
+        <h3>Conoce nuestros trabajos</h3>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="container">
-      <div class="row" data-aos="fade-right" data-aos-duration="2000">
-        <div class="col-lg-4 d-flex justify-content-center mb-3">
-          <img src="img/imagen1.jpg" class="img-trabajos borde-index" alt="">
-          
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center mb-3">
-          <img src="img/imagen2.jpg" class="img-trabajos borde-index" alt="">
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center mb-3">
-          <img src="/img/imagen3.jpg" class="img-trabajos borde-index" alt="">
-        </div>
+  <section class="container">
+    <div class="row" data-aos="fade-right" data-aos-duration="2000">
+      <div class="col-lg-4 d-flex justify-content-center mb-4 mt-4 zoom">
+        <img src="img/imagen1.jpg" class="img-trabajos borde-index" alt="">
       </div>
-    </section>
+      <div class="col-lg-4 d-flex justify-content-center mb-3 mt-4 zoom">
+        <img src="img/imagen2.jpg" class="img-trabajos borde-index " alt="">
+      </div>
+      <div class="col-lg-4 d-flex justify-content-center mb-1 mt-4 zoom">
+        <img src="/img/imagen3.jpg" class="img-trabajos borde-index" alt="">
+      </div>
+    </div>
+  </section>
 
-    <section class="container">
-      <div class="row mb-5" data-aos="fade-left" data-aos-duration="2000">
-        <div class="col-lg-4 d-flex justify-content-center mb-3">
-          <img src="/img/imagen4.jpg" class="img-trabajos borde-index" alt="">
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center mb-3 ">
-          <img src="/img/imagen5.jpg" class="img-trabajos borde-index" alt="">
-        </div>
-        <div class="col-lg-4 d-flex justify-content-center mb-3">
-          <img src="/img/imagen6.jpg" class="img-trabajos borde-index" alt="">
-        </div>
+  <section class="container">
+    <div class="row mb-5" data-aos="fade-left" data-aos-duration="2000">
+      <div class="col-lg-4 d-flex justify-content-center mb-3 mt-4 zoom">
+        <img src="/img/imagen4.jpg" class="img-trabajos borde-index zoom:hover" alt="">
       </div>
-    </section>
-     
-    <footer>
-     
-        <footer class="bg-light text-lg-start d-flex flex-column">
-          <div class="p-2 linea-footer" style="background-color: rgba(99, 94, 94, 0.2);">
-            Montevideo, Uruguay
-          </div>
-          <div class="p-2 linea-footer" style="background-color: rgba(99, 94, 94, 0.2);">
-            +598 94 999 999
-          </div>
-          <div class="p-2 linea-footer" style="background-color: rgba(99, 94, 94, 0.2);">
-            pluservicios@gmail.com
-          </div>
-        </footer>
+      <div class="col-lg-4 d-flex justify-content-center mb-3 mt-4 zoom">
+        <img src="/img/imagen5.jpg" class="img-trabajos borde-index" alt="">
+      </div>
+      <div class="col-lg-4 d-flex justify-content-center mb-3 mt-4 zoom">
+        <img src="/img/imagen6.jpg" class="img-trabajos borde-index" alt="">
+      </div>
+    </div>
+  </section>
+    
+      
+  <footer class="bg-light">
+    <div class="logo_footer">
+      <img src="/img/logo1.png" alt="">
+    </div>
+    <div class="conocenos_footer">
+      <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Conócenos</p>
+      <p><img src="/img/logo_hiper.png" alt=""><a class="linea_footer" href="/vistas/servicios.html">Servicios</a></p>
+      <p><img src="/img/logo_hiper.png" alt=""><a class="linea_footer" href="/vistas/quienessomos.html">¿Quiénes Somos?</a></p>
+    </div>
+    <div class="contactanos_footer">
+      <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Contáctanos</p>
+      <p> <img style="margin-right: 8px;" src="/img/logo_mensaje.png">+598 98 330 003</p>
+      <p> <img src="/img/logo_wpp.png"><a class="linea_footer" href="https://web.whatsapp.com/">Envíanos un mensaje</a></p>
+      <p> <img src="/img/logo_hiper.png" alt=""><a class="linea_footer" href="/vistas/contacto.html">Contáctanos</a></p>
+    </div>
+    <div class="redes_footer">
+      <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Redes</p>
+      <a href="https://www.facebook.com/"><img src="/img/logo_fb.png" alt=""></a>
+      <a href="https://www.instagram.com/?hl=es-la"><img src="/img/logo_ig.png"></a>
+    </div>
+  </footer>
         
-      </footer>
+    
+  
+          
+      
+  
       
       
        
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script>
+      AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

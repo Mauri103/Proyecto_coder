@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
+
+
+
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  .wrapper {
+    min-height: calc(100% - 4rem);
+  }
+  .footer {
+    height: 4rem;
+    background-color: #e2e2e2
+  }
+
 @media (max-width: 2560px) {
     .tam-logo{
 
