@@ -10,14 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../sass/main.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Quienes somos</title>
+    <title>Quiénes somos</title>
 </head>
 <body>
   <header>
       <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-light ">
               <div class="container-fluid d-inline-flex p-2">
-                <img src="../img/logo1.png" class="tam-logo " alt="">
+                <a href="../index.html"><img src="../img/logo1.png"  class="tam-logo " alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -45,7 +45,8 @@
   </header>
 
   <!-- Nuestro equipo -->
-        
+   
+  <!--Misión y Visión-->
 
   <section class="container">
       <div class="row d-flex justify-content-center">
@@ -53,28 +54,47 @@
               <div class="m-4" data-aos="zoom-in" data-aos-duration="2000">
                   <h4>¿Quiénes somos?</h4>
               </div>
-              <div class="texto-quienes" data-aos="zoom-in" data-aos-duration="2000">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta aut quibusdam fuga mollitia, accusamus placeat non minus? Eum a at atque porro, eaque nulla corrupti quas quo omnis. Repellendus veniam, ducimus, deleniti eaque nihil aut atque ipsa sunt quo commodi ea! Iste accusamus rem, hic reprehenderit sint ea voluptas?
-              </div>
           </div>
       </div>
   </section>
 
+  <div class="container">
+    <div class="row d-flex justify-content-between mb-4">
+      <div class="col-lg-5 m-3 alin_quienes" data-aos="fade-right" data-aos-duration="2000"">
+        <h4>Misión de la empresa</h4>
+        <p style="margin-top: 20px;">Ofrecer servicios innovadores y calificados para aquellas personas que presenten desperfectos en sus hogares, ya sea eléctrico, sanitario o de climatización ambiental.
+          La empresa cuenta con personal calificado, capaz de resolver cualquier problema que se le presente en el menor tiempo posible.
+          Se enfoca en satisfacer todas las necesidades del cliente, contando con herramientas de primera calidad, que le permiten realizar su trabajo de forma satisfactoria.
+          Los técnicos de la empresa brindan un excelente servicio al cliente, con carisma y respeto.
+          </p>
+      </div>
+      <div class="col-lg-5 m-3 alin_quienes" data-aos="fade-left" data-aos-duration="2000"">
+        <div class="texto alin_texto_quienes">
+          <h4>Visión de la empresa</h4>
+          <p style="margin-top: 20px;">Procurar ser líderes en el mercado de mantenimiento eléctrico, sanitario y de aire acondicionado, contando con el mejor equipo de trabajo y la mejor tecnología para lograr solucionar cualquier desperfecto que se presente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Fotos de nuestro equipo-->
+
   <section class="conoce mb-4 d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
       <div class="row">
-          <col-lg-12>
+          <div class= "col-lg-12 m-5">
               <h4>Conoce nuestro personal</h4>
-          </col-lg-12>
+          <div>
       </div>
   </section>
 
   <section class="container-fluid">
-      <div class="row">
+      <div class="row mb-4">
           <div class="col-lg-4 alin-texto" data-aos="fade-left" data-aos-duration="2000">
             <img src="/img/miembro1.jpg" class="tam-img-quienes bordes-img p-1 img-fluid" alt="">
             <div class="mt-4">
               <h5>Luis Peraez</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatibus itaque molestiae earum eveniet quam impedit est quaerat mollitia, labore perferendis dolorum autem ad quia nobis dolorem, sint ullam incidunt?</p>
+              <p>Director Ejecutivo</p>
             </div>
           </div>
           
@@ -83,7 +103,7 @@
               <img src="/img/miembro2.jpg"  class="tam-img-quienes bordes-img p-1 img-fluid" alt="">
               <div class="mt-4">
                 <h5>Hector Laborda</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, soluta dicta. Magni inventore veniam, tempore optio voluptates esse quia reiciendis atque id placeat? Et sequi quasi, temporibus illo molestiae corrupti?</p>
+                <p>CEO</p>
               </div>
           </div>
           
@@ -91,34 +111,42 @@
             <img src="/img/miembro3.jpg" class="tam-img-quienes bordes-img p-1 img-fluid" alt="">
             <div class="mt-4">
               <h5>Lorena Carrizo</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, alias maxime consequuntur deserunt ullam ducimus accusamus nihil odio quae necessitatibus eos voluptatum, deleniti dolor. Similique quo nisi tempore sapiente sint.</p>
+              <p>Secretaria General</p>
             </div>  
           </div>
       </div>
   </section>
     
  
-  <footer class="bg-light">
-    <div class="logo_footer">
-      <img src="../img/logo1.png" alt="">
+  
+  <footer>
+    <div class="container-fluid bg-light p-4">
+      <div class="row alin_footer">
+
+        <div class="col-lg-4 m_footer">
+          <div class="logo_footer">
+            <img src="../img/logo1.png" class="logo_footer" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 alin_footer p_footer ">
+          <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Conócenos</p>
+          <p><img src="../img/logo_hiper.png" class="tam_logo_footer" alt=""><a class="linea_footer" href="../vistas/servicios.html">Servicios</a></p>
+          <p><img src="../img/logo_hiper.png" class="tam_logo_footer" alt=""><a class="linea_footer" href="../vistas/quienessomos.html">¿Quiénes Somos?</a></p>
+        </div>
+        <div class="col-lg-3 alin_footer p_footer">
+          <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Contáctanos</p>
+          <p> <img style="margin-right: 8px;" src="../img/logo_mensaje.png" class="tam_logo_footer">+598 98 330 003</p>
+          <p> <img src="../img/logo_wpp.png" class="tam_logo_footer"><a class="linea_footer" href="https://web.whatsapp.com/">Envíanos un mensaje</a></p>
+          <p> <img src="../img/logo_hiper.png" class="tam_logo_footer" alt=""><a class="linea_footer" href="../vistas/contacto.html">Contáctanos</a></p>
+        </div>
+        <div class="col-lg-2 alin_footer p_footer">
+          <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Redes</p>
+          <a href="https://www.facebook.com/"><img src="../img/logo_fb.png" class="tam_logo_footer m_redes_footer"></a>
+          <a href="https://www.instagram.com/?hl=es-la"><img src="../img/logo_ig.png" class="tam_logo_footer m_redes_footer"></a>
+        </div>
+      </div>
     </div>
-    <div class="conocenos_footer">
-      <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Conócenos</p>
-      <p><img src="../img/logo_hiper.png" alt=""><a class="linea_footer" href="../vistas/servicios.html">Servicios</a></p>
-      <p><img src="../img/logo_hiper.png" alt=""><a class="linea_footer" href="../vistas/quienessomos.html">¿Quiénes Somos?</a></p>
-    </div>
-    <div class="contactanos_footer">
-      <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Contáctanos</p>
-      <p> <img style="margin-right: 8px;" src="../img/logo_mensaje.png">+598 98 330 003</p>
-      <p> <img src="../img/logo_wpp.png"><a class="linea_footer" href="https://web.whatsapp.com/">Envíanos un mensaje</a></p>
-      <p> <img src="../img/logo_hiper.png" alt=""><a class="linea_footer" href="../vistas/contacto.html">Contáctanos</a></p>
-    </div>
-    <div class="redes_footer">
-      <p style="color: rgb(19, 19, 19); font-weight: bolder; font-size: 16px;">Redes</p>
-      <a href="https://www.facebook.com/"><img src="../img/logo_fb.png" alt=""></a>
-      <a href="https://www.instagram.com/?hl=es-la"><img src="../img/logo_ig.png"></a>
-    </div>
-  </footer>
+  </footer>  
          
 
 

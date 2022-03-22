@@ -55,54 +55,39 @@
 }
 
 footer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "logo conocenos contactanos redes";
   padding: 20px;
   padding-top: 30px;
   font-size: 13px;
 }
 
 .conocenos_footer {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: conocenos;
   -ms-grid-column-align: center;
       justify-self: center;
 }
 
 .logo_footer {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: logo;
   -ms-grid-column-align: start;
       justify-self: start;
   margin-left: 10px;
   margin-top: 8px;
+  width: 250px;
+  height: 80px;
+  text-align: left;
 }
 
 .contactanos_footer {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: contactanos;
   -ms-grid-column-align: center;
       justify-self: center;
 }
 
 .redes_footer {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-  grid-area: redes;
   -ms-grid-column-align: center;
       justify-self: center;
 }
 
-footer img {
-  width: 250px;
-  height: 80px;
-  text-align: left;
+.tam_logo_footer {
+  width: 20px;
+  height: 20px;
 }
 
 .linea_footer {
@@ -130,6 +115,20 @@ footer img {
   margin-right: 10px;
 }
 
+.alin_footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.m_redes_footer {
+  margin-right: 20px;
+}
+
+.p_footer {
+  padding-left: 100px;
+}
+
 .tam-img-quienes {
   height: 200px;
   width: 300px;
@@ -138,7 +137,20 @@ footer img {
 .bordes-img {
   border-style: groove;
   border-radius: 25%;
-  border-color: cadetblue;
+  border-color: rgba(99, 94, 94, 0.2);
+}
+
+.alin_quienes {
+  text-align: center;
+  border-style: solid;
+  border-radius: 25%;
+  border-color: rgba(99, 94, 94, 0.2);
+  padding: 5rem;
+  font-size: 13px;
+}
+
+.alin_texto_quienes {
+  margin-top: 50px;
 }
 
 .alin-serv {
@@ -180,6 +192,14 @@ footer img {
   border-radius: 100%;
 }
 
+.p_right_servicios {
+  padding-right: 50px;
+}
+
+.p_left_servicios {
+  padding-left: 50px;
+}
+
 .alin-texto {
   text-align: center;
 }
@@ -190,6 +210,7 @@ footer img {
 
 .p-ubi {
   padding-left: 250px;
+  font-size: 14px;
 }
 
 .alin-map {
@@ -205,6 +226,16 @@ footer img {
 
 .tam-map {
   width: 450px;
+  height: 300px;
+}
+
+.box_ubi {
+  margin-top: 50px;
+  padding-bottom: 200px;
+}
+
+iframe {
+  width: 300px;
   height: 300px;
 }
 
@@ -228,7 +259,6 @@ footer img {
 }
 
 form {
-  background-color: #f5f7f8;
   padding: 20px;
   margin: 40px;
 }

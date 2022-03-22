@@ -1,50 +1,51 @@
 footer{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "logo conocenos contactanos redes";   
-   
+       
     padding: 20px;
     padding-top: 30px;
     font-size: 13px;
 
-    
 }
 
 
+
+
 .conocenos_footer{
-    grid-area: conocenos;
+    
     justify-self: center;
 }
 
 .logo_footer{
-    grid-area: logo;
+   
     justify-self: start;
     margin-left: 10px;
     margin-top: 8px;
+    width: 250px;
+    height: 80px;
+    text-align: left;
     
     
 }
 
 .contactanos_footer{
-    grid-area: contactanos;
+    
     justify-self: center;
 }
 
 .redes_footer{
-    grid-area: redes;
+   
     justify-self: center;
 }
 
-footer img{
-    width: 250px;
-    height: 80px;
-    text-align: left;
+.tam_logo_footer{
+    width: 20px;
+    height: 20px;
 }
 
 .linea_footer{
     text-decoration: none;
     color: rgb(112, 110, 110);
     padding-left: 8px;
+    
 }
 
 .contactanos_footer img{
@@ -64,4 +65,18 @@ footer img{
 
 .redes_footer a{
     margin-right: 10px
+}
+
+.alin_footer{
+
+    justify-content: space-between;
+}
+
+.m_redes_footer{
+    margin-right: 20px;
+}
+
+.p_footer{
+    padding-left: 100px; 
+    
 }

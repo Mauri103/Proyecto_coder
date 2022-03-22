@@ -7,5 +7,19 @@
 .bordes-img{
     border-style: groove;
     border-radius: 25%;
-    border-color: cadetblue;
+    border-color: rgba(99, 94, 94, 0.2);
+}
+
+.alin_quienes{
+    text-align: center;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: rgba(99, 94, 94, 0.2);
+    padding: 5rem;
+    font-size: 13px;
+    
+}
+
+.alin_texto_quienes{
+    margin-top: 50px;
 }
