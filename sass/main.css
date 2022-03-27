@@ -149,8 +149,15 @@ footer {
   font-size: 13px;
 }
 
-.alin_texto_quienes {
-  margin-top: 50px;
+.m_quienes {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.media_query {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .alin-serv {
@@ -209,7 +216,7 @@ footer {
 }
 
 .p-ubi {
-  padding-left: 250px;
+  padding-left: 20px;
   font-size: 14px;
 }
 

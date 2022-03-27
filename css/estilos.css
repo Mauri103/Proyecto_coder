@@ -36,19 +36,20 @@ p{
         width: 350px;
         height: 120px;
     }
+
+    .media_query{
+        justify-content: space-evenly;
+    }
     
 }
 
 
 @media (max-width: 1440px) {
     .img-trabajos{
-        height: 400px;
-        width: 400px;
+        height: 50vh;
+        width: 50vh;
     }
 
-    .p-ubi{
-        padding: 0px;
-    }
 
 }
 
@@ -59,8 +60,14 @@ p{
         width: 300px;
     }
 
-    .p-ubi{
-       padding: 0px;
+    
+    .logo-footer{
+        width: 200px;
+        height: 80px;
+    }
+
+    .p_footer{
+        padding-left: 60px;
     }
     
 
@@ -68,6 +75,14 @@ p{
 }
 
 @media (max-width: 768px) {
+    .p_right_servicios{
+        padding-right: 20px;
+    }
+
+    .p_left_servicios{
+        padding-left: 20px;
+    }
+    
     .alin-texto-right{
         text-align: center;
     }  
@@ -109,10 +124,33 @@ p{
     .m_footer{
         margin-left: 350px;
     }
+
+    .alin_quienes{
+        width: 400px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .alin_texto_quienes{
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 425px) { 
     
+    .alin_quienes{
+        
+        margin-left: 0px;
+        border-color: rgba(99, 94, 94, 0.2);
+        padding: 2rem;
+        padding-bottom: 6rem;
+        font-size: 13px;
+        margin-top: 2rem;
+        width: 250px;
+        text-align: center;
+ 
+    }
+
     .tam-logo{
         width: 170px;
         height: 60px;
@@ -144,7 +182,7 @@ p{
     }
 
     .m-cont{
-        margin: 2rem;
+        margin: 0rem;
     }
 
     .img-trabajos{
@@ -152,17 +190,17 @@ p{
         width: 250px;
     }
         
-    .logo-footer{
-        width: 160px;
+    .logo_footer{
+        width: 250px;
         height: 80px;
-        margin-left: 0px;
+        margin-left: 4px;
     }
     
     .m_footer{
         margin-left: 0px;
     }
-     
-}
+}    
+
 
 @media (max-width: 320px) { 
 
@@ -176,3 +214,4 @@ p{
 
 
 }
+
